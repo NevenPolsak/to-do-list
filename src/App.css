@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Wrapper {
+  background: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+}
+.Input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  align-items: center;
+}
+
+.Input-wrapper input {
+  border-radius: 4%;
+  border: 0;
+  background-color:white;
+  width: 160px;
+  padding: 6px;
+  height: 20px;
+  margin: 10px;
+}
+
+.Input-wrapper button {
+ width: 30px;
+
+}
+.Item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  width: 180px;
+  height: 20px;
+  border: 2px solid chocolate;
+  border-radius: 4%;
+  padding: 10px;
+  background-color: black;
+}
+.Item p {
+  margin: 0;
+  font-family: "fantasy";
+  font-size: 14px;
+}
+
+.Item button {
+  width: 30px;
+  padding: 2px;
+  align-items: center;
+}
